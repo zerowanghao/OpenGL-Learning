@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Renderer">
+      <UniqueIdentifier>{c4324659-73af-4a2a-ade2-e89cc3422c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer\Window">
+      <UniqueIdentifier>{fab994d3-ca8b-446c-8d53-5a7026c10506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Common">
+      <UniqueIdentifier>{b3be3a5c-725a-404f-a8fb-db3cbf3b970b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer\Shader">
+      <UniqueIdentifier>{ed854940-609b-40ad-9994-03cb9ac0fc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Shader">
+      <UniqueIdentifier>{079f873c-0953-43d0-a551-8f5b4eb58ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Shader\Triangle">
+      <UniqueIdentifier>{14c5375e-d898-4e09-97f2-78d3db6ecb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer\VertexArray">
+      <UniqueIdentifier>{c53728ca-8521-4625-857c-95af5956979e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer\Buffer">
+      <UniqueIdentifier>{402c78aa-45bf-4a32-a062-24943dfde5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer\IndexBuffer">
+      <UniqueIdentifier>{7f13041e-8fe4-4848-ab1a-d3d7cb6efa91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer\Texture2D">
+      <UniqueIdentifier>{87dc4990-9fc5-4c7c-a09f-a194ba0c606f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Shader\Texture">
+      <UniqueIdentifier>{508d38c6-f020-4719-9ce2-da5c573010fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer\Renderable2D">
+      <UniqueIdentifier>{19b7ef0d-4dd5-4d9c-b949-a85d6714a543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer\Renderer2D">
+      <UniqueIdentifier>{07dd3ad1-b5e4-42fd-8576-22b4bb178593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renderer\SimpleRenderer2D">
+      <UniqueIdentifier>{baa83ec6-8929-42ba-ba45-715c766d63a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Textures">
+      <UniqueIdentifier>{5aecbfff-42ef-4c6c-aee2-d049b254853d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>源文件\Renderer\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件\Renderer\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>源文件\Renderer\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>源文件\Renderer\VertexArray</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>源文件\Renderer\IndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>源文件\Renderer\Texture2D</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable2D.cpp">
+      <Filter>源文件\Renderer\Renderable2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer2D.cpp">
+      <Filter>源文件\Renderer\Renderer2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleRenderer2D.cpp">
+      <Filter>源文件\Renderer\SimpleRenderer2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>源文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>源文件\Renderer\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>源文件\Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>源文件\Renderer\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>源文件\Renderer\VertexArray</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>源文件\Renderer\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>源文件\Renderer\Texture2D</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable2D.h">
+      <Filter>源文件\Renderer\Renderable2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer2D.h">
+      <Filter>源文件\Renderer\Renderer2D</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleRenderer2D.h">
+      <Filter>源文件\Renderer\SimpleRenderer2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="triangle.fs">
+      <Filter>资源文件\Shader\Triangle</Filter>
+    </None>
+    <None Include="triangle.vs">
+      <Filter>资源文件\Shader\Triangle</Filter>
+    </None>
+    <None Include="texture.vs">
+      <Filter>资源文件\Shader\Texture</Filter>
+    </None>
+    <None Include="texture.fs">
+      <Filter>资源文件\Shader\Texture</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texture_01.jpg">
+      <Filter>资源文件\Textures</Filter>
+    </Image>
+    <Image Include="12323456.jpg">
+      <Filter>资源文件\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
